@@ -11,6 +11,7 @@ env: # Change these to your preferences any image url can also be a base encoded
   JUMBOTRON_IMAGE_URL: "https://www.noordwijk.nl/wp-content/uploads/2023/06/VUURTOREN1222-scaled.jpg"
   FOOTER_LOGO_URL: "https://biobound.nl/wp-content/uploads/2022/01/Gemeente-Noordwijk-Logo.png"
   FOOTER_LOGO_HREF: "https://www.noordwijk.nl/"
+  OIDN_NUMBER: "00000001825792150000"
 
 on:
   push:
@@ -41,6 +42,7 @@ jobs:
           envkey_GATSBY_JUMBOTRON_IMAGE_URL: ${{ env.JUMBOTRON_IMAGE_URL }}
           envkey_GATSBY_FOOTER_LOGO_URL: ${{ env.FOOTER_LOGO_URL }}
           envkey_GATSBY_FOOTER_LOGO_HREF: ${{ env.FOOTER_LOGO_HREF }}
+          envkey_GATSBY_OIDN_NUMBER: ${{ env.OIDN_NUMBER }}
           directory: pwa/static
           file_name: .env.production
           fail_on_empty: true
