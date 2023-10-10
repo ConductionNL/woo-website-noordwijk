@@ -15,6 +15,7 @@ env: # Change these to your preferences any image url can also be a base encoded
   JUMBOTRON_IMAGE_URL: "https://www.noordwijk.nl/wp-content/uploads/2023/06/VUURTOREN1222-scaled.jpg"
   FOOTER_LOGO_URL: "https://biobound.nl/wp-content/uploads/2022/01/Gemeente-Noordwijk-Logo.png"
   FOOTER_LOGO_HREF: "https://www.noordwijk.nl/"
+  FOOTER_CONTENT: '[{"title":"Contact","items":[{"label":"Phone number","value":"+31 71 36 60 000","link":"tel:+31713660000"},{"label":"Email address","value":"gemeente@noordwijk.nl","link":"mailto:gemeente@noordwijk.nl"},{"label":"Address","value":"Locaties en openingstijden","link":"https://www.noordwijk.nl/contact/locaties/"},{"label":"Contact","value":"Contact","link":"https://www.noordwijk.nl/contact/"}]}]'
   OIDN_NUMBER: "00000001825792150000"
 
 on:
