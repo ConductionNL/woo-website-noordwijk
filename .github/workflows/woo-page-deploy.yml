@@ -48,6 +48,7 @@ jobs:
           envkey_GATSBY_JUMBOTRON_IMAGE_URL: ${{ env.JUMBOTRON_IMAGE_URL }}
           envkey_GATSBY_FOOTER_LOGO_URL: ${{ env.FOOTER_LOGO_URL }}
           envkey_GATSBY_FOOTER_LOGO_HREF: ${{ env.FOOTER_LOGO_HREF }}
+          envkey_GATSBY_FOOTER_CONTENT: ${{ env.FOOTER_CONTENT }}
           envkey_GATSBY_OIDN_NUMBER: ${{ env.OIDN_NUMBER }}
           directory: pwa/static
           file_name: .env.production
