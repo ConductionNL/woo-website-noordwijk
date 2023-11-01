@@ -1,49 +1,60 @@
 [
-    {
-        "title": "Contact",
-        "items": [
-            {
-                "label": "Phone number",
-                "value": "+31 71 36 60 000",
-                "link": "tel:+31713660000"
-            },
-            {
-                "label": "Email address",
-                "value": "gemeente@noordwijk.nl",
-                "link": "mailto:gemeente@noordwijk.nl"
-            },
-            {
-                "label": "Address",
-                "value": "Locaties en openingstijden",
-                "link": "https://www.noordwijk.nl/contact/locaties/"
-            },
-            {
-                "label": "Contact",
-                "value": "Neem contact op",
-                "link": "https://www.noordwijk.nl/contact/"
-            }
-        ]
-    },
-    {
-        "title": "Algemeen",
-        "items": [
-            {
-                "label": "Website",
-                "value": "www.noordwijk.nl",
-                "link": "https://www.noordwijk.nl/"
-            },
-            {
-                "value": "Privacy",
-                "link": "https://www.noordwijk.nl/privacy-en-cookies/"
-            },
-            {
-                "value": "Toegankelijkheid",
-                "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/"
-            },
-            {
-                "value": "Over deze website",
-                "markdownLink": "https://raw.githubusercontent.com/ConductionNL/woo-website-template/main/docs/Over%20deze%20website.md"
-            }
-        ]
-    }
+  {
+    "title": "Contact",
+    "items": [
+      {
+        "ariaLabel": "Phone number",
+        "value": "+31 71 36 60 000",
+        "link": "tel:+31713660000",
+        "icon": { "prefix": "fas", "icon": "phone", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Email address",
+        "value": "gemeente@noordwijk.nl",
+        "link": "mailto:gemeente@noordwijk.nl",
+        "icon": { "prefix": "fas", "icon": "at", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Address",
+        "value": "Locaties en openingstijden",
+        "link": "https://www.noordwijk.nl/contact/locaties/",
+        "icon": { "prefix": "fas", "icon": "location-dot", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Contact",
+        "value": "Contact",
+        "link": "https://www.noordwijk.nl/contact/",
+        "icon": { "prefix": "fas", "icon": "earth-europe", "placement": "left" }
+      }
+    ]
+  },
+  {
+    "title": "Algemeen",
+    "items": [
+      {
+        "ariaLabel": "Website",
+        "value": "www.noordwijk.nl",
+        "link": "https://www.noordwijk.nl/",
+        "icon": { "prefix": "fas", "icon": "globe", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Privacy",
+        "value": "Privacy",
+        "link": "https://www.noordwijk.nl/",
+        "icon": { "prefix": "fas", "icon": "circle-exclamation", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Toegankelijkheid",
+        "value": "Toegankelijkheid",
+        "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/",
+        "icon": { "prefix": "fas", "icon": "user-shield", "placement": "left" }
+      },
+      {
+        "ariaLabel": "Over deze website",
+        "value": "Over deze website",
+        "markdownLink": "https://raw.githubusercontent.com/ConductionNL/woo-website-template/main/docs/Over%20deze%20website.md",
+        "icon": { "prefix": "fas", "icon": "circle-info", "placement": "left" }
+      }
+    ]
+  }
 ]
