@@ -1,1 +1,49 @@
-[{"title":"Contact","items":[{"label":"Phone number","value":"+31 71 36 60 000","link":"tel:+31713660000"},{"label":"Email address","value":"gemeente@noordwijk.nl","link":"mailto:gemeente@noordwijk.nl"},{"label":"Address","value":"Locaties en openingstijden","link":"https://www.noordwijk.nl/contact/locaties/"},{"label":"Contact","value":"Neem contact op","link":"https://www.noordwijk.nl/contact/"}]},{"title":"Algemeen","items":[{"label":"Website","value":"www.noordwijk.nl","link":"https://www.noordwijk.nl/"},{"label":"Privacy","value":"Privacy","link":"https://www.noordwijk.nl/"},{"label":"Toegankelijkheid","value":"Toegankelijkheid","link":"https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/"},{"label":"Over deze website","value":"Over deze website","link":"https://www.noordwijk.nl/"}]}]
+[
+    {
+        "title": "Contact",
+        "items": [
+            {
+                "label": "Phone number",
+                "value": "+31 71 36 60 000",
+                "link": "tel:+31713660000"
+            },
+            {
+                "label": "Email address",
+                "value": "gemeente@noordwijk.nl",
+                "link": "mailto:gemeente@noordwijk.nl"
+            },
+            {
+                "label": "Address",
+                "value": "Locaties en openingstijden",
+                "link": "https://www.noordwijk.nl/contact/locaties/"
+            },
+            {
+                "label": "Contact",
+                "value": "Neem contact op",
+                "link": "https://www.noordwijk.nl/contact/"
+            }
+        ]
+    },
+    {
+        "title": "Algemeen",
+        "items": [
+            {
+                "label": "Website",
+                "value": "www.noordwijk.nl",
+                "link": "https://www.noordwijk.nl/"
+            },
+            {
+                "value": "Privacy",
+                "link": "https://www.noordwijk.nl/privacy-en-cookies/"
+            },
+            {
+                "value": "Toegankelijkheid",
+                "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/"
+            },
+            {
+                "value": "Over deze website",
+                "link": "https://www.noordwijk.nl/"
+            }
+        ]
+    }
+]
