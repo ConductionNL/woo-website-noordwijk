@@ -12,5 +12,5 @@ van de toegankelijkheid en de gebruiksvriendelijkheid.
 
 Voor een toegankelijkheidsverklaring moet de website worden getoetst door een
 externe partij. Het laatste onderzoek vond plaats op 11 oktober 2023. In het
-[toegankelijkheidsrapport](https://github.com/ConductionNL/woo-website-noordwijk/blob/main/Woo-pagina-WCAG-V5.pdf) staat hoe toegankelijk de website is en welke onderdelen
+[toegankelijkheidsrapport](https://github.com/ConductionNL/woo-website-noordwijk/blob/main/Woo-website-WCAG-V5.pdf) staat hoe toegankelijk de website is en welke onderdelen
 nog niet toegankelijk zijn.
